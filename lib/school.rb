@@ -1,6 +1,6 @@
 # code here!
 class School
-
-  def roster
-    hash = {}
-  
+  attr_accessor :roster
+  def initialize(roster)
+    @roster = {}
+  end
